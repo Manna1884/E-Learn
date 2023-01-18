@@ -1,9 +1,7 @@
 
 #Creating Hosted Zone for the Domain Name
 resource "aws_route53_zone" "shemen" {
-  name         = "shemenmanna.com"
-
- 
+  name         = "shemenmanna.com" 
 }
 
 #Creating a Record for the ALB dns to be attached to the Domain Name
